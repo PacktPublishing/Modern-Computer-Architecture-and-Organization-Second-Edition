@@ -3,7 +3,7 @@ __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Pa
 
 Locate the following files under the Android SDK installation directory (the default location is under %LOCALAPPDATA%\Android) and add their directories to your PATH environment variable: **aarch64-linux-android-as.exe** and **adb.exe**. Hint: The following command works for one version of Android Studio (your path may vary):
 ```
-set PATH=%PATH%;%LOCALAPPDATA \Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin;%LOCALAPPDATA%\Android\Sdk\platform-tools
+set PATH=%PATH%;%LOCALAPPDATA%\Android\Sdk\ndk\23.0.7599858\toolchains\llvm\prebuilt\windows-x86_64\bin;%LOCALAPPDATA%\Android\Sdk\platform-tools
 ```
 Create a file name **hello_arm64.s** with the content shown in the source listing in the **64-bit ARM assembly language** section of this chapter.
 

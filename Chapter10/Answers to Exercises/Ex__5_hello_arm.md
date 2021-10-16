@@ -1,11 +1,11 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
 # Chapter 10, Exercise 5
 
-Install the free Android Studio integrated development environment, available at https://developer.android.com/studio/. After installation is complete, open the Android Studio IDE and select **SDK Manager** under the **Tools** menu. In the **Settings for New Projects** dialog, select the **SDK Tools** tab and check the **NDK** option, which may say **NDK (Side by side)**. Complete the installation of the NDK (NDK means native development kit).
+Install the free Android Studio integrated development environment, available at https://developer.android.com/studio/. After installation is complete, open the Android Studio IDE and select **SDK Manager** under the **Tools** menu. Select the **SDK Tools** tab and check the **NDK** option, which may say **NDK (Side by side)**. Complete the installation of the NDK (NDK means native development kit).
 
 Locate the following files under the SDK installation directory (the default location is under %LOCALAPPDATA%\Android) and add their directories to your PATH environment variable: **arm-linux-androideabi-as.exe** and **adb.exe**. Hint: The following command works for one specific version of Android Studio (your path may vary):
 ```
-set PATH=%PATH%;%LOCALAPPDATA%\Android\Sdk\ndk\20.1.5948944\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin;%LOCALAPPDATA%\Android\Sdk\platform-tools
+set PATH=%PATH%;%LOCALAPPDATA%\Android\Sdk\ndk\23.0.7599858\toolchains\llvm\prebuilt\windows-x86_64\bin;%LOCALAPPDATA%\Android\Sdk\platform-tools
 ```
 
 Create a file name **hello_arm.s** with the content shown in the source listing in the **32-bit ARM assembly language** section of this chapter.
