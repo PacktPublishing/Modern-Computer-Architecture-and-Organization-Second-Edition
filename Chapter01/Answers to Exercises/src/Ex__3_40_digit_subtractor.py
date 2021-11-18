@@ -18,10 +18,8 @@ def subtract_40_digits(str1, str2):
 
     # Convert str2 into a 40 decimal digit value
     num2 = [0]*max_digits
-    i = 0
     for i, c in enumerate(reversed(str2)):
         num2[i] = int(c) - int('0')
-        i = i + 1
 
     # Subtract the digits at each position and record the
     # carry for each position
