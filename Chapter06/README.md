@@ -1,4 +1,5 @@
-__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 6 - Specialized Computing Domains
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 6 - Specialized Computing Domains
 
 Most computer users are, at least superficially, familiar with key performance-related
 attributes of personal computers and smart digital devices, such as processor speed and

@@ -1,4 +1,5 @@
-__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 3 - Processor Elements
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 3 - Processor Elements
 
 This chapter begins our development of a comprehensive understanding of modern
 processor architectures. Building upon the basic digital circuits introduced in *Chapter 2, Digital Logic*, we discuss the functional units of a simple, generic computer processor.

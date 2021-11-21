@@ -1,4 +1,5 @@
-__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 5 - Hardware-Software Interface
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 5 - Hardware-Software Interface
 
 The vast majority of computer software is not written at the processor instruction level in
 assembly language. Most of the applications we work with on a daily basis are written in

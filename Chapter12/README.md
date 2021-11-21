@@ -1,4 +1,5 @@
-__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 12 - Processor Virtualization
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 12 - Processor Virtualization
 
 This chapter introduces the concepts underlying processor virtualization and explores the
 many benefits to individual users and large organizations that are achievable through the

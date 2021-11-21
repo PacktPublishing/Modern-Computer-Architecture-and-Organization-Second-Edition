@@ -1,4 +1,5 @@
-__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 8 - Performance-Enhancing Techniques
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 8 - Performance-Enhancing Techniques
 
 The fundamental aspects of processor and memory architectures discussed in previous
 chapters enable the design of a complete and functional computer system. However,

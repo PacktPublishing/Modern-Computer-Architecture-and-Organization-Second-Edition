@@ -1,4 +1,5 @@
-__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 10 - Modern Processor Architectures and Instruction Sets
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 10 - Modern Processor Architectures and Instruction Sets
 
 Most modern personal computers contain a processor supporting either the Intel or AMD
 version of the x86 32-bit and x64 64-bit architectures. Almost all smartphones, smart

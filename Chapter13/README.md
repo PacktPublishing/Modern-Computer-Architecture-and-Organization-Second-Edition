@@ -1,4 +1,5 @@
-__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 13 - Domain-Specific Computer Architectures
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 13 - Domain-Specific Computer Architectures
 
 This chapter brings together the topics discussed in previous chapters to develop an
 approach for architecting a computer system designed to meet unique user requirements.

@@ -1,4 +1,5 @@
-__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 1 - Answers to Exercises
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 1 - Answers to Exercises
 
 [Exercise 1](Ex__1_single_digit_adder.md)
 
