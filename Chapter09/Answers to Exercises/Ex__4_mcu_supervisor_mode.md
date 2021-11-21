@@ -1,5 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 9, Exercise 4
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 9, Exercise 4
 
 Do the i.MX RT1060 processors support the concept of supervisor mode instruction execution? Explain your answer.
 

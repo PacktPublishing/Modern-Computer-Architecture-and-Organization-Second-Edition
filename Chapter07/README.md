@@ -1,5 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 7 - Processor and Memory Architectures
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 7 - Processor and Memory Architectures
 
 This chapter takes a deeper look at modern processor architectures, specifically the von
 Neumann, Harvard, and modified Harvard variants, and the computing domains in which

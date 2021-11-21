@@ -1,5 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 4 - Computer System Components
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 4 - Computer System Components
 
 This chapter begins with an introduction to the **metal-oxide-semiconductor (MOS)**
 transistor, used extensively in memory circuits and in most other modern digital devices.

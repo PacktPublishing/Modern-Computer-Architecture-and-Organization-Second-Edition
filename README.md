@@ -1,4 +1,4 @@
-# Modern Computer Architecture and Organization
+# Modern Computer Architecture and Organization Second Edition
 
 This book presents the key technologies and components employed in modern processor
 and computer architectures and discusses how various architectural decisions result in
@@ -46,7 +46,13 @@ years. A general understanding of computer processors is helpful but is not requ
 
 [Chapter 13 - Domain-Specific Computer Architectures](Chapter13/README.md)
 
-[Chapter 14 - Future Directions in Computer Architectures](Chapter14/README.md)
+[Chapter 14 - Cybersecurity and Confidential Computing Architectures](Chapter14/README.md)
+
+[Chapter 15 - Blockchain and Bitcoin Mining Architectures](Chapter15/README.md)
+
+[Chapter 16 - Self-Driving Vehicle Architectures](Chapter16/README.md)
+
+[Chapter 17 - Quantum Computing and Other Future Directions in Computer Architectures](Chapter17/README.md)
 
 # Code in Action
 

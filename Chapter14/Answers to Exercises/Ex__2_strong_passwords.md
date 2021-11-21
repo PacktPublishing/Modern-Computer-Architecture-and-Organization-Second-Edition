@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
 # Chapter 14, Exercise 2
 
-2.	Create strong passwords for all your internet-accessible accounts containing information of value that cannot be protected by two-factor authentication. A strong password is long (15 characters or more) and includes uppercase, lowercase, numeric, and special characters (for example: ! " # $ % & ' ( ) \* +). To keep track of these complicated passwords, install and use a reputable password safe application. Use care when selecting a password safe and consider its source.
+Create strong passwords for all your internet-accessible accounts containing information of value that cannot be protected by two-factor authentication. A strong password is long (15 characters or more) and includes uppercase, lowercase, numeric, and special characters (for example: ! " # $ % & ' ( ) \* +). To keep track of these complicated passwords, install and use a reputable password safe application. Use care when selecting a password safe and consider its source.
 
 # Answer
 There are many options for securely storing passwords for use in your computer and in other devices. Most web browsers offer password management, as do most antivirus software packages. Standalone password manager applications are available as well. You can start to narrow your choices by performing an internet search for *password manager*.

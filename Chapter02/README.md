@@ -1,5 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 2 - Digital Logic
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 2 - Digital Logic
 
 This chapter builds upon the introductory topics presented in *Chapter 1, Introducing Computer Architecture* and provides a firm understanding of the digital building blocks
 used in the design of modern processors. We begin with a discussion of the properties

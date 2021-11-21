@@ -1,5 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 1 - Introducing Computer Architecture
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 1 - Introducing Computer Architecture
 
 The architecture of automated computing devices has evolved from mechanical systems
 constructed nearly two centuries ago to the broad array of modern electronic computing

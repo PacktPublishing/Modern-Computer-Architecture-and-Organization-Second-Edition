@@ -1,5 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 14 - Future Directions in Computer Architectures
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 14 - Future Directions in Computer Architectures
 
 This chapter anticipates the road ahead for computer architecture design. We will review
 the significant technological advances and ongoing trends that have led us to the current

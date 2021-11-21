@@ -1,5 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 9 - Specialized Processor Extensions
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 9 - Specialized Processor Extensions
 
 In the preceding chapters, we discussed the features of general-purpose computer
 architectures as well as some architectural specializations intended to address

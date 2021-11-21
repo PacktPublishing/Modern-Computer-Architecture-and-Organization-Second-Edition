@@ -1,5 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 11 - The RISC-V Architecture and Instruction Set
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.# Chapter 11 - The RISC-V Architecture and Instruction Set
 
 This chapter introduces the exciting, relatively new RISC-V (pronounced *risk five*) processor
 architecture and its instruction set. RISC-V is a completely open source specification for a
