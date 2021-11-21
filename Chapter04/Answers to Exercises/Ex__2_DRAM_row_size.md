@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 4, Exercise 2
 
 A 16 gigabit DRAM integrated circuit has two bank group selection inputs, two bank selection inputs, and 17 row address inputs. How many bits are in each row of a bank in this device?

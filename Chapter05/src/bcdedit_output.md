@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 5
 
 The example below shows the BCD (boot configuration data) information stored on a Windows 10 system. To display this information on your computer, you must run the bcdedit command from a command prompt with Administrator privilege:

@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 6, Exercise 2
 A common form of the one-dimensional discrete cosine transform is:
 

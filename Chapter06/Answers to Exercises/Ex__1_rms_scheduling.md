@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 6, Exercise 1
 **Rate monotonic scheduling (RMS)** is an algorithm for assigning thread priorities in preemptive, hard real-time applications in which threads execute periodically. RMS assigns the highest priority to the thread with the shortest execution period, the next highest priority to the thread with the next shortest execution period, and so on. An RMS system is schedulable, meaning all tasks are guaranteed to meet their deadlines (assuming no inter-thread interactions or other activities such as interrupts cause processing delays) if the following condition is met:
 

@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 14, Exercise 1
 
 Where supported, set up two-factor authentication for all your internet-accessible accounts containing data that you care about. This includes bank accounts, email accounts, social media, code repositories (if you are a software developer), medical services, and anything else you value. Ensure at all stages that you are using only information and software applications from trusted sources.

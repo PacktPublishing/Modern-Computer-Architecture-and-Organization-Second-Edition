@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 10, Exercise 3
 
 In the Windows search box in the Task Bar, begin typing **x64 Native Tools Command Prompt for VS 2019**. When the app appears in the search menu, select it to open a command prompt.

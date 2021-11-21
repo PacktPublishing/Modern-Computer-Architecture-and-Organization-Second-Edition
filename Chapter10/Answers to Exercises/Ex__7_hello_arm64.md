@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 10, Exercise 7
 
 Locate the following files under the Android SDK installation directory (the default location is under %LOCALAPPDATA%\Android) and add their directories to your PATH environment variable: **aarch64-linux-android-as.exe** and **adb.exe**. Hint: The following command works for one version of Android Studio (your path may vary):

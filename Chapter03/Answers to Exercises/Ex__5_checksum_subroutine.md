@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 3, Exercise 5
 
 Make the checksum validation code from exercise 4 into a labelled subroutine that can be called with a JSR instruction and that ends with an RTS instruction.

@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 14, Exercise 2
 
 Create strong passwords for all your internet-accessible accounts containing information of value that cannot be protected by two-factor authentication. A strong password is long (15 characters or more) and includes uppercase, lowercase, numeric, and special characters (for example: ! " # $ % & ' ( ) \* +). To keep track of these complicated passwords, install and use a reputable password safe application. Use care when selecting a password safe and consider its source.

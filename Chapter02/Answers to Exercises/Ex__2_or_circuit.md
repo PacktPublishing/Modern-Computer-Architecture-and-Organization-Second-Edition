@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 2, Exercise 2
 
 Create a circuit implementation of an OR gate by modifying the circuit in Figure 2.5. Wires, transistors, and resistors can be added as needed.

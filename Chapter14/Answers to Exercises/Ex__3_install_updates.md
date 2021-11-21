@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 14, Exercise 3
 
 Update the operating system and other applications and services (such as Java) on all computers and other devices under your control. This will ensure the security updates included in those updates start working to protect you soon after they become available. Set up a plan to continue regularly installing updates as they are released to ensure you are protected in the future.

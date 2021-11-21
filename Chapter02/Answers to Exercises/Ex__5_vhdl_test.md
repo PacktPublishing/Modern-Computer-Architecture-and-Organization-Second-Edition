@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 2, Exercise 5
 
 Add test driver code (search the Internet to learn how) to your 4-bit adder to drive it through a limited set of input sets and verify the outputs are correct.

@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 12, Exercise 2
 
 Within the Ubuntu operating system you installed in [Exercise 1](Ex__1_vbox_ubuntu.md), install VirtualBox and then install and bring up a virtual machine version of FreeDOS. Verify that DOS commands such as *echo Hello World!* and *mem* perform properly in the FreeDOS VM. After completing this exercise, you will have implemented an instance of nested virtualization.

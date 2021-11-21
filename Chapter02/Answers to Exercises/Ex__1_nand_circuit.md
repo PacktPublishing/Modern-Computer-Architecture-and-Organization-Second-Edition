@@ -1,4 +1,4 @@
-__Modern Computer Architecture and Organization__, by Jim Ledin. Published by Packt Publishing
+__Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 2, Exercise 1
 
 Rearrange the circuit of Figure 2.5 to convert the AND gate to a NAND gate. Hint: There is no need to add or remove components.
