@@ -54,14 +54,7 @@ years. A general understanding of computer processors is helpful but is not requ
 
 [Chapter 17 - Quantum Computing and Other Future Directions in Computer Architectures](Chapter17/README.md)
 
-# Code in Action
-
-[Code in Action videos](Code-in-Action.md)
-
-
-<a href="https://www.packtpub.com/cloud-networking/modern-computer-architecture-and-organization?utm_source=github&utm_medium=repository&utm_campaign=9781838984397"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781838984397-original.png" alt="Modern Computer Architecture and Organization " height="256px" align="right"></a>
-
-This is the code repository for [Modern Computer Architecture and Organization ](https://www.packtpub.com/cloud-networking/modern-computer-architecture-and-organization?utm_source=github&utm_medium=repository&utm_campaign=9781838984397), published by Packt.
+This is the code repository for [Modern Computer Architecture and Organization Second Edition](), published by Packt.
 
 **Learn x86, ARM, and RISC-V architectures and the design of smartphones, PCs, and cloud servers**
 
@@ -81,9 +74,6 @@ Write a quantum computing program and run it on a quantum computer
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1838984399) today!
 
-<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
-alt="https://www.packtpub.com/" border="5" /></a>
-
 ## Instructions and Navigations
 All of the code is organized into folders. For example, Chapter02.
 
@@ -94,7 +84,7 @@ counts_sim = result_sim.get_counts(qc)
 counts_sim
 ```
 
-**Following is what you need for this book:**
+**Who this book is for:**
 This book is for software developers, computer engineering students, system designers, reverse engineers, and anyone looking to understand the architecture and design principles underlying modern computer systems from tiny embedded devices to warehouse-size cloud server farms. A general understanding of computer processors is helpful but not required.	
 
 
