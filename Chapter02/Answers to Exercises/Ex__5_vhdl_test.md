@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 2, Exercise 5
 
-Add test driver code (search the Internet to learn how) to your 4-bit adder to drive it through a limited set of input sets and verify the outputs are correct.
+Add test driver code (search the internet for *VHDL testbench* to find examples) to your 4-bit adder to drive it through a limited set of input sets and verify the outputs are correct.
 
 # Answer
 Follow these steps to test the 4-bit adder project created in Exercise 4:
