@@ -1,13 +1,12 @@
 __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 15 - Blockchain and Bitcoin Mining Architectures
+# Chapter 16 - Self-Driving Vehicle Architectures
 
-This chapter begins with a brief introduction to the concepts associated with blockchain, a public, cryptographically secured ledger recording a sequence of transactions. The discussion continues with an overview of the process of Bitcoin mining, which appends transactions to the Bitcoin blockchain and rewards those who complete this task with payment in the form of Bitcoin. Bitcoin processing requires high-performance computing hardware, which is often specifically designed for this task. The chapter concludes with a description of the features of these hardware architectures.
+This chapter describes the capabilities required in self-navigating vehicle processing architectures. It begins with a discussion of the types of sensors and data a self-driving vehicle receives as input while driving. Next is a description of the types of processing required and the update rates needed for effective vehicle control. The chapter ends with a discussion of the requirements for ensuring the safety of the autonomous vehicle and its occupants, as well as for other vehicles, pedestrians, and stationary objects.
 
 This chapter will cover the following topics:
-* Introduction to blockchain and Bitcoin
-* The Bitcoin mining process
-* Bitcoin mining computer architectures
-* Alternative types of cryptocurrency
+* Overview of self-driving vehicles
+* Safety concerns of self-driving vehicles
+* Hardware and software processing requirements for self-driving vehicles
 
 # Answers to Exercises
 [Answers to Exercises](Answers%20to%20Exercises/README.md)
