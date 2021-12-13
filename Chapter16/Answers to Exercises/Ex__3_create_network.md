@@ -1,5 +1,5 @@
 __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
-# Chapter 16, Exercise 2
+# Chapter 16, Exercise 3
 
 Create a program using the TensorFlow library that builds a CNN using the structure shown in Figure 16.2. Use a 3x3 convolution filter in each convolutional layer. Use 32 filters in the first convolutional layer and 64 filters in the other two convolutional layers. Use 64 neurons in the hidden layer. There are 10 output neurons representing an image’s presence in one of the 10 CIFAR-10 categories.
 
