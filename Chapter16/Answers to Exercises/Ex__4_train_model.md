@@ -45,6 +45,6 @@ Epoch 10/10
 ===============================
 ```
 
-The following figure displays the classification accuracy on the training images and on the test images of the CNN after each training epoch:
+This figure displays the classification accuracy of the CNN on the training images (*Accuracy*) and on the test images (*Validation accuracy*) after each of the 10 training epochs:
 
 ![CNN training accuracy](training_accuracy.png)
