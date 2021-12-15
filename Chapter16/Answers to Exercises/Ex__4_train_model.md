@@ -44,3 +44,7 @@ Epoch 10/10
 | Validation accuracy: 71.28% |
 ===============================
 ```
+
+The following figure displays the classification accuracy on the training images and on the test images of the CNN after each training epoch:
+
+![CNN training accuracy](training_accuracy.png)
