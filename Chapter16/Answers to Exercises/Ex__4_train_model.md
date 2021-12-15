@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 16, Exercise 4
 
-Create a program using the TensorFlow library that trains the CNN developed in [Exercise 3](Ex__3_create_network.md) and test the resulting model using the CIFAR-10 test images. Determine the percentage of test images the CNN classifies correctly.
+Create a program using the TensorFlow library that trains the CNN developed in [Exercise 3](Ex__3_create_network.md) and test the resulting model using the CIFAR-10 test images. Determine the percentage of test images that the CNN classifies correctly.
 
 # Answer
 See the python file [Ex__4_train_model.py](src/Ex__4_train_model.py) for the code to create, train, and test the CNN model.
