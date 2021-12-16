@@ -7,8 +7,7 @@ LDA #$02
 STA $0201
 LDA #$01
 STA $0200
-; Add four bytes together using absolute indexed addressing
-mode
+; Add four bytes together using absolute indexed addressing mode
 LDX #$03
 LDA $0200, X
 DEX
