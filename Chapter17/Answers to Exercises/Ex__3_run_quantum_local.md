@@ -62,7 +62,6 @@ c: 3/═══════════════════╩══╩══
 ```
 backend_sim = Aer.get_backend('qasm_simulator')
 job_sim = backend_sim.run(transpile(qc, backend_sim), shots=1024)
-
 ```
 
 7. Retrieve and display the count of the number of times each bit pattern resulted from a simulation run:

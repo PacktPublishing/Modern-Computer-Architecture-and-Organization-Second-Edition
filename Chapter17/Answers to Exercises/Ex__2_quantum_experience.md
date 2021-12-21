@@ -10,7 +10,7 @@ Create a free IBM Quantum Experience account at https://quantum-computing.ibm.co
 
 3. Return to the Anaconda prompt for the qiskitenv environment you created in [Exercise 1](Ex__1_install_qiskit.md).
 
-4. Enter the following commands at the Anaconda prompt to set up your API token. You will need to replace *MY_TOKEN* with the token you copied to the clipboard in the earlier step:
+4. Enter the following commands at the Anaconda prompt to set up your API token. You will need to replace *MY_TOKEN* with the token you copied to the clipboard in step 2:
 ```
 python
 import qiskit

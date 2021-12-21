@@ -24,12 +24,12 @@ job_exp = execute(qc, backend=backend, shots=1024)
 job_monitor(job_exp)
 ```
 
-After the run completes you will see the line:
+ After the job completes you will see the line:
 ```
 Job Status: job has successfully run
 ```
 
-5. After the job completes, retrieve the results with this command:
+5. After the job has completed, retrieve the results with this command:
 ```
 result_exp = job_exp.result()
 ```
