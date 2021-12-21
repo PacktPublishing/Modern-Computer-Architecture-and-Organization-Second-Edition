@@ -24,7 +24,7 @@ job_exp = execute(qc, backend=backend, shots=1024)
 job_monitor(job_exp)
 ```
 
- After the job completes you will see the line:
+&emsp; After the job completes you will see the line:
 ```
 Job Status: job has successfully run
 ```
