@@ -12,7 +12,7 @@ Install the Qiskit quantum processor software development framework by following
 
 4. In the Anaconda prompt, create and activate a virtual environment named *qiskitenv* with the following commands. Install any recommended packages:
 ```
-conda create -n qiskitenv python=3
+conda create -n qiskitenv python=3.8
 conda activate qiskitenv
 ```
 

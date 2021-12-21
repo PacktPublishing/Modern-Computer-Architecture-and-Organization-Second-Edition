@@ -6,7 +6,7 @@ Work through the example quantum program at https://qiskit.org/documentation/tut
 # Answer
 1. Start an Anaconda prompt console. Type *anaconda* in the Windows search box and click on **Anaconda prompt** when it appears in the search list. A console window will appear.
 
-1. Enter the *qiskitenv* environment with this command:
+2. Enter the *qiskitenv* environment with this command:
 ```
 conda activate qiskitenv
 ```
@@ -34,7 +34,8 @@ meas.barrier(range(3))
 meas.measure(range(3),range(3))
 
 # Combine the two circuits
-qc = circ + meas
+circ.add_register(meas.cregs[0])
+qc = circ.compose(meas)
 ```
 
 5. Display the circuit onscreen:
@@ -42,29 +43,25 @@ qc = circ + meas
 qc.draw()
 ```
 
- The output of this command should appear as follows:
+The output of this command should appear as follows:
 ```
 >>> qc.draw()
-        ┌───┐           ░ ┌─┐
-q_0: |0>┤ H ├──■────■───░─┤M├──────
-        └───┘┌─┴─┐  │   ░ └╥┘┌─┐
-q_1: |0>─────┤ X ├──┼───░──╫─┤M├───
-             └───┘┌─┴─┐ ░  ║ └╥┘┌─┐
-q_2: |0>──────────┤ X ├─░──╫──╫─┤M├
-                  └───┘ ░  ║  ║ └╥┘
- c_0: 0 ═══════════════════╩══╬══╬═
-                              ║  ║
- c_1: 0 ══════════════════════╩══╬═
-                                 ║
- c_2: 0 ═════════════════════════╩═
-
+     ┌───┐           ░ ┌─┐
+q_0: ┤ H ├──■────■───░─┤M├──────
+     └───┘┌─┴─┐  │   ░ └╥┘┌─┐
+q_1: ─────┤ X ├──┼───░──╫─┤M├───
+          └───┘┌─┴─┐ ░  ║ └╥┘┌─┐
+q_2: ──────────┤ X ├─░──╫──╫─┤M├
+               └───┘ ░  ║  ║ └╥┘
+c: 3/═══════════════════╩══╩══╩═
+                        0  1  2
 >>>
 ```
 
 6. Run the circuit on your computer using the *qasm_simulator* simulator. The *shots* parameter provides a count of the number of times the circuit will be executed to collect statistical results:
 ```
 backend_sim = Aer.get_backend('qasm_simulator')
-job_sim = execute(qc, backend_sim, shots=1024)
+job_sim = backend_sim.run(transpile(qc, backend_sim), shots=1024)
 
 ```
 
@@ -78,6 +75,6 @@ counts_sim
 You should see results similar (but not identical) to these:
 ```
 >>> counts_sim
-{'000': 527, '111': 497}
+{'111': 506, '000': 518}
 >>>
 ```
