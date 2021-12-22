@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 17, Exercise 3
 
-Work through the example quantum program at https://qiskit.org/documentation/tutorials/fundamentals/1_getting_started_with_qiskit.html. This example creates a quantum circuit containing three qubits that implements a **Greenberger–Horne–Zeilinger (GHZ)** state. The GHZ state exhibits key properties of quantum entanglement. Execute the code in a simulation environment on your computer.
+Work through the example quantum program at https://qiskit.org/documentation/tutorials/circuits/1_getting_started_with_qiskit.html. This example creates a quantum circuit containing three qubits that implements a **Greenberger–Horne–Zeilinger (GHZ)** state. The GHZ state exhibits key properties of quantum entanglement. Execute the code in a simulation environment on your computer.
 
 # Answer
 1. Start an Anaconda prompt console. Type *anaconda* in the Windows search box and click on **Anaconda prompt** when it appears in the search list. A console window will appear.
