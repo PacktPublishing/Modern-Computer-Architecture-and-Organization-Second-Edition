@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 10, Exercise 3
 
-In the Windows search box in the Task Bar, begin typing **x64 Native Tools Command Prompt for VS 2019**. When the app appears in the search menu, select it to open a command prompt.
+In the Windows search box in the Task Bar, begin typing **x64 Native Tools Command Prompt for VS 2022**. When the app appears in the search menu, select it to open a command prompt.
 
 Create a file name **hello_x64.asm** with the content shown in the source listing in the **x64 assembly language** section of this chapter.
 
@@ -10,7 +10,7 @@ Build the program using the command shown in the **x64 assembly language** secti
 # Answer
 Create your assembly language source file. See [Ex__3_hello_x64.asm](src/Ex__3_hello_x64.asm) for an example solution to this exercise.
  
-Open the **x64 Native Tools Command Prompt for VS 2019** and change to the directory containing your source file.
+Open the **x64 Native Tools Command Prompt for VS 2022** and change to the directory containing your source file.
  
 Build the executable with this command:
 ```
@@ -25,7 +25,7 @@ Hello, Computer Architect!
 
 This is the listing file created by the build procedure:
 ```
-Microsoft (R) Macro Assembler (x64) Version 14.24.28314.0   01/15/20 18:44:39
+Microsoft (R) Macro Assembler (x64) Version 14.31.31104.0   02/21/22 07:47:41
 Ex__3_hello_x64.asm					     Page 1 - 1
 
 
@@ -60,9 +60,7 @@ Ex__3_hello_x64.asm					     Page 1 - 1
 	   21 00
 
 				end
-
-
-Microsoft (R) Macro Assembler (x64) Version 14.24.28314.0   01/15/20 18:44:39
+Microsoft (R) Macro Assembler (x64) Version 14.31.31104.0   02/21/22 07:47:41
 Ex__3_hello_x64.asm					     Symbols 2 - 1
 
 

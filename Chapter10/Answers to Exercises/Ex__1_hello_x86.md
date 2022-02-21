@@ -3,7 +3,7 @@ __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. 
 
 Install the free Visual Studio Community edition, available at https://visualstudio.microsoft.com/vs/community/, on a Windows PC. After installation is complete, open the Visual Studio IDE and select **Get Tools and Features…** under the **Tools** menu. Install the **Desktop development with C++** workload.
 
-In the Windows search box in the Task Bar, start typing **x86 Native Tools Command Prompt for VS 2019**. When the app appears in the search menu, select it to open a command prompt.
+In the Windows search box in the Task Bar, start typing **Developer Command Prompt for VS 2022**. When the app appears in the search menu, select it to open a command prompt.
 
 Create a file name **hello_x86.asm** with the content shown in the source listing in the **x86 assembly language** section of this chapter.
 
@@ -15,7 +15,7 @@ Install Visual Studio Community as described in the question, then install the *
 
 Create your assembly language source file. See [Ex__1_hello_x86.asm](src/Ex__1_hello_x86.asm) for an example solution to this exercise.
  
-Open the **x86 Native Tools Command Prompt for VS 2019** and change to the directory containing your source file.
+Open the **Developer Command Prompt for VS 2022** and change to the directory containing your source file.
  
 Build the executable with this command:
 ```
@@ -30,7 +30,7 @@ Hello, Computer Architect!
 
 This is the listing file created by the build procedure:
 ```
-Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/15/20 18:40:04
+Microsoft (R) Macro Assembler Version 14.31.31104.0	    02/21/22 07:39:20
 Ex__1_hello_x86.asm					     Page 1 - 1
 
 
@@ -65,9 +65,7 @@ Ex__1_hello_x86.asm					     Page 1 - 1
 	   21 00
 
 				end
-                                
-                                
-Microsoft (R) Macro Assembler Version 14.24.28314.0	    01/15/20 18:40:04
+Microsoft (R) Macro Assembler Version 14.31.31104.0	    02/21/22 07:39:20
 Ex__1_hello_x86.asm					     Symbols 2 - 1
 
 

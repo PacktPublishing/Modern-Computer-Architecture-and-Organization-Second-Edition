@@ -6,7 +6,7 @@ Write an x86 assembly language program that computes the following expression an
 # Answer
 Create your assembly language source file. See [Ex__2_expr_x86.asm](src/Ex__2_expr_x86.asm) for an example solution to this exercise.
  
-Open the **x86 Native Tools Command Prompt for VS 2019** and change to the directory containing your source file.
+Open the **Developer Command Prompt for VS 2022** and change to the directory containing your source file.
 
 Build the executable with this command:
 ```
@@ -21,7 +21,7 @@ C:\>Ex__2_expr_x86.exe
 
 This is the listing file created by the build procedure:
 ```
-Microsoft (R) Macro Assembler Version 14.23.28107.0	    01/26/20 20:45:09
+Microsoft (R) Macro Assembler Version 14.31.31104.0	    02/21/22 07:42:23
 Ex__2_expr_x86.asm					     Page 1 - 1
 
 
@@ -98,9 +98,7 @@ Ex__2_expr_x86.asm					     Page 1 - 1
  00000027 68 09			msg2    db "h", 9
 
 				end
-
-
-Microsoft (R) Macro Assembler Version 14.23.28107.0	    01/26/20 20:45:09
+Microsoft (R) Macro Assembler Version 14.31.31104.0	    02/21/22 07:42:23
 Ex__2_expr_x86.asm					     Symbols 2 - 1
 
 
