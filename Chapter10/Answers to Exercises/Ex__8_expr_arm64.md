@@ -134,3 +134,4 @@ AARCH64 GAS  Ex__8_expr_arm64.s 			page 2
   89 0023 68       	    .ascii  "h"
   90              	msg2_len = . - msg2
 ```
+Don't forget to disable **Developer Options** on your Android phone or tablet..

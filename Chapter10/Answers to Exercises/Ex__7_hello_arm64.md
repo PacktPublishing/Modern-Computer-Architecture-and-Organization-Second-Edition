@@ -15,6 +15,8 @@ Connect your Android device to the computer with a USB cable.
 
 Copy the program executable image to the phone using the commands shown in the **64-bit ARM assembly language** section of this chapter and run the program. Verify the output **Hello, Computer Architect!** appears on the host computer screen.
 
+Disable **Developer Options** on your Android phone or tablet..
+
 # Answer
 Create your assembly language source file. See [Ex__7_hello_arm64.s](src/Ex__7_hello_arm64.s) for an example solution to this exercise.
  
@@ -71,3 +73,4 @@ AARCH64 GAS  Ex__7_hello_arm64.s 			page 1
   19      41726368 
   20              	msg_len = . - msg
 ```
+Don't forget to disable **Developer Options** on your Android phone or tablet..

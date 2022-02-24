@@ -127,3 +127,4 @@ ARM GAS  Ex__6_expr_arm.s 			page 2
   82 0023 68       	    .ascii  "h"
   83              	msg2_len = . - msg2
 ```
+Don't forget to disable **Developer Options** on your Android phone or tablet..
