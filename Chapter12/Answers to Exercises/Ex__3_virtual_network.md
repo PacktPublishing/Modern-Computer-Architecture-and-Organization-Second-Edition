@@ -4,7 +4,7 @@ __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. 
 Create two separate copies of your Ubuntu guest machine in your host system’s VirtualBox environment. Configure both Ubuntu guests to connect to the VirtualBox *internal* network. Set up the two machines with compatible Internet Protocol addresses. Verify each of the machines can receive a response from the other using the *ping* command. By completing this exercise, you will have configured a virtual network within your virtualized environment.
 
 # Answer
-1. In your host system VirtualBox, with the Ubuntu machine not running, open the **Settings** dialog for the Ubuntu VM you set up in [Exercise 1](Ex__1_vbox_ubuntu.md) and select the *Network* settings. Set the **Attached to:** network type to *Internal Network**, then click **OK**.
+1. In your host system VirtualBox Manager, with the Ubuntu machine not running, open the **Settings** dialog for the Ubuntu VM you set up in [Exercise 1](Ex__1_vbox_ubuntu.md) and select the *Network* settings. Set the **Attached to:** network type to *Internal Network**, then click **OK**.
 
 1. Right-click on the Ubuntu VM in the VirtualBox manager and select **Clone...** from the context menu. Click **Next** in the *Clone Virtual Machine* menu. Leave **Full clone** selected and click **Clone**. Wait for the cloning process to complete.
 
@@ -25,7 +25,7 @@ VBoxManage dhcpserver add --netname intnet --ip 192.168.10.1 --netmask 255.255.2
 hostname -I
 ```
 
-1. Ping one machine from the other. For example, if the first machine's IP address is 192.168.10.100 and the second is 192.168.10.101, enter the following command on the first machine:
+7. Ping one machine from the other. For example, if the first machine's IP address is 192.168.10.100 and the second is 192.168.10.101, enter the following command on the first machine:
 ```
 ping 192.168.10.101
 ```
@@ -45,4 +45,4 @@ rtt min/avg/max/mdev = 0.268/0.344/0.437/0.065 ms
 osboxes@osboxes:~$ 
 ```
 
-9. Repeat the *ping* command on the second machine, switching the target to the IP address of the first machine.
+9. Repeat the *ping* command on the second machine, switching the target to the IP address of the first machine. Verify the response is similar to the previous result.
