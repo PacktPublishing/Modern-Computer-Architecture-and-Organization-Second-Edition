@@ -6,12 +6,10 @@ Within the Ubuntu operating system you installed in [Exercise 1](Ex__1_vbox_ubun
 # Answer
 1. With your Ubuntu VM not running, select the **Settings** icon in VirtualBox manager for the VM. In the **System** section, **Processor** tab, check the box for *Enable Nested VT-x/AMD-V*. You must be running VirtualBox 6.1 or later for this feature to be fully supported. Click **OK** to save the change.
 
-2. Start your Ubuntu VM. Login to the VM, open a terminal window, and install VirtualBox in the Ubuntu VM with the following commands:
+2. Start your Ubuntu VM. Login to the VM, open a terminal window, and install VirtualBox in the Ubuntu VM with the following command:
 
 ```
-wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib"
-sudo apt update && sudo apt install virtualbox-6.1
+sudo apt-get install virtualbox
 ```
 
 3. Install 7-zip in the Ubuntu VM with this command:
@@ -19,13 +17,13 @@ sudo apt update && sudo apt install virtualbox-6.1
 sudo apt-get install p7zip-full
 ```
 
-4. Download a VirtualBox virtual disk image for FreeDOS from https://www.osboxes.org/freedos/. Perform the following steps (assuming the downloaded file is in the *~/Downloads* directory, and the FreeDOS image file name is *1-2.7z*):
+4. Download a VirtualBox virtual disk image for FreeDOS from https://www.osboxes.org/freedos/. Perform the following steps (assuming the downloaded file is in the *~/snap/firefox/common/Downloads* directory, and the FreeDOS image file name is *64-bit.7z*):
 ```
 cd
 mkdir 'VirtualBox VMs'
 cd 'VirtualBox VMs'
-mv ~/Downloads/1-2.7z .
-7z x 1-2.7z
+mv ~/snap/firefox/common/Downloads/64bit.7z .
+7z x 64bit.7z
 ```
 
 5. Start VirtualBox with the following command:

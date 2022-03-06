@@ -28,16 +28,15 @@ Download and install the current version of VirtualBox. Download, install, and b
 
 1. After login has finished, open a terminal window by pressing *Ctrl+Alt+T*.
 
-1. In the VM terminal, install software packages with the commands:
+1. In the VM terminal, install software packages with the following commands. Respond to the prompts to complete the installation.
 ```
 sudo apt-get update
 sudo apt-get install gcc make perl
 sudo apt-get install build-essential linux-headers-`uname -r` dkms
 ```
-Respond to the prompts to complete the installation.
 1. In the *Devices* menu of the Ubuntu VM window, select *Insert Guest Additions CD Image...*. Respond to the prompts to complete the installation. Reboot the VM after installation completes.
 
-1. Log in to the VM. In the VM terminal, create a directory named *share* with the following command:
+1. Log in to the VM and open a terminal window. In the VM terminal, create a directory named *share* with the following command:
 ```
 mkdir share
 ```
