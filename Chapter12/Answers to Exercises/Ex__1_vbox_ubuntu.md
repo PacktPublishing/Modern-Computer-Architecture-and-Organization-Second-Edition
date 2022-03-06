@@ -20,7 +20,7 @@ Download and install the current version of VirtualBox. Download, install, and b
 
 1. Click **Network**. In the **Adapter 1** tab, select *Bridged Adapter* next to **Attached to:**.
 
-1. Create a folder on the Windows disk named *share* in your *Documents* folder. Click **Shared Folders** in the VirtualBox Manager **Settings** dialog for your Ubuntu VM. Click the icon to add a shared folder (it looks like a folder with a plus on it). Select the **share** folder you just created on the host computer and click **OK**.
+1. Create a folder on the Windows disk named *share* in your *Documents* folder. Click **Shared Folders** in the VirtualBox Manager **Settings** dialog for your Ubuntu VM. Click the icon to add a shared folder (it looks like a folder with a plus on it). Select the **share** folder you just created on the host computer, set the **Folder Name** to *share_folder* and click **OK**.
 
 1. Click **OK** in the **Settings** dialog to close it.
 
@@ -28,12 +28,21 @@ Download and install the current version of VirtualBox. Download, install, and b
 
 1. After login has finished, open a terminal window by pressing *Ctrl+Alt+T*.
 
-1. In the VM terminal, create a directory named *share* with the following command:
+1. In the VM terminal, install software packages with the commands:
+```
+sudo apt-get update
+sudo apt-get install gcc make perl
+sudo apt-get install build-essential linux-headers-`uname -r` dkms
+```
+Respond to the prompts to complete the installation.
+1. In the *Devices* menu of the Ubuntu VM window, select *Insert Guest Additions CD Image...*. Respond to the prompts to complete the installation. Reboot the VM after installation completes.
+
+1. Log in to the VM. In the VM terminal, create a directory named *share* with the following command:
 ```
 mkdir share
 ```
 
 14. Enter the following command in the VM terminal to mount the shared folder:
 ```
-sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share ~/share
+sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share_folder ~/share
 ```
