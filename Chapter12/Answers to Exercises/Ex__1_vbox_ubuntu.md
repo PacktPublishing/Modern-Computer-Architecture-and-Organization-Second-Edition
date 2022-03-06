@@ -35,22 +35,22 @@ sudo apt-get install gcc make perl
 sudo apt-get install build-essential linux-headers-`uname -r` dkms
 ```
 
-1. In the *Devices* menu of the Ubuntu VM window, select *Insert Guest Additions CD Image...*. Respond to the prompts to complete the installation. Reboot the VM after installation completes.
+14. In the *Devices* menu of the Ubuntu VM window, select *Insert Guest Additions CD Image...*. Respond to the prompts to complete the installation. Reboot the VM after installation completes.
 
 1. Log in to the VM and open a terminal window. In the VM terminal, create a directory named *share* with the following command:
 ```
 mkdir share
 ```
 
-1. Enter the following command in the VM terminal to mount the shared folder:
+16. Enter the following command in the VM terminal to mount the shared folder:
 ```
 sudo mount -t vboxsf -o rw,uid=1000,gid=1000 share_folder ~/share
 ```
 
-1. Create a file in the shared folder on the Ubuntu system:
+17. Create a file in the shared folder on the Ubuntu system:
 ```
 cd ~/share
 touch file1.txt
 ```
 
-1. On the Windows host, verify that *file1.txt* is now present in your *Documents\share* directory.
+18. On the Windows host, verify that *file1.txt* is now present in your *Documents\share* directory.
