@@ -7,6 +7,7 @@ This chapter will cover the following topics:
 * Overview of self-driving vehicles
 * Safety concerns of self-driving vehicles
 * Hardware and software processing requirements for self-driving vehicles
+* Autonomous vehicle computer architecture
 
 # Answers to Exercises
 [Answers to Exercises](Answers%20to%20Exercises/README.md)

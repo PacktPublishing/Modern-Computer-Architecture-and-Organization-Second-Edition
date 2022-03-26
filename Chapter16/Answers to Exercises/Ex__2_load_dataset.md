@@ -8,6 +8,8 @@ See the python file [Ex__2_load_dataset.py](src/Ex__2_load_dataset.py) for the c
 
 To execute the program, assuming **python** is installed and is in your path, execute the command **python Ex__2_load_dataset.py**
 
+If you receive an error message stating *cudart64_110.dll not found* you can safely ignore the message. This just means you do not have the library installed for running TensorFlow on an Nvidia CUDA GPU. The code will run (more slowly) on your system processor instead.
+
 This is the set of sample images displayed by the code:
 
 ![Sample CIFAR-10 images](sample-cifar10-images.png)
