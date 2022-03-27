@@ -29,7 +29,8 @@ for k in range(num_passes):
 
     total_time = t1 - t0
     col_major_time = col_major_time + total_time
-    print('  Column-major time to fill array: %.2f sec' % total_time)
+    print('  Column-major time to fill array: %.2f sec' %
+          total_time)
 
     t0 = time.time()
     for i in range(dim):
@@ -40,7 +41,8 @@ for k in range(num_passes):
 
     total_time = t1 - t0
     row_major_time = row_major_time + total_time
-    print('  Row-major time to fill array: %.2f sec' % total_time)
+    print('  Row-major time to fill array: %.2f sec' %
+          total_time)
     print('')
     
 row_major_average = row_major_time / num_passes
@@ -48,12 +50,16 @@ col_major_average = col_major_time / num_passes
 
 if (row_major_average < col_major_average):
     winner = 'row'
-    pct_better = 100 * (col_major_average - row_major_average) / col_major_average
+    pct_better = 100 * (col_major_average -
+        row_major_average) / col_major_average
 else:
     winner = 'column'
-    pct_better = 100 * (row_major_average - col_major_average) / row_major_average
+    pct_better = 100 * (row_major_average -
+        col_major_average) / row_major_average
 
 print('Average row-major time   : %.2f sec' % row_major_average)
 print('Average column-major time: %.2f sec' % col_major_average)
-print('Average time difference  : %.2f sec' % ((row_major_time-col_major_time) / num_passes))
-print(('Winner is ' + winner + '-major indexing; It is faster by %.2f%%') % pct_better)
+print('Average time difference  : %.2f sec' % (
+    (row_major_time-col_major_time) / num_passes))
+print(('Winner is ' + winner +
+    '-major indexing; It is faster by %.2f%%') % pct_better)

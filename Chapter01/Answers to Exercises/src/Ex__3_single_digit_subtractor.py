@@ -15,7 +15,7 @@ def decrement_subtractor(a, b, c):
     if a == 9:       # If accum reached 9, decrement carry
         c = c - 1
         
-    return a, b, c;
+    return a, b, c
 
 # Subtract two decimal digits. The difference is returned as
 # digit1 and the carry output is 0 (borrow) or 1 (not borrow).
@@ -27,4 +27,3 @@ def subtract_digits(digit1, digit2):
         digit1, digit2, carry)
 
     return digit1, carry
-    

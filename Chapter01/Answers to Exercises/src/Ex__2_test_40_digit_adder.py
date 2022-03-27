@@ -6,7 +6,7 @@
 import unittest
 import Ex__2_40_digit_adder
 
-class TestSingleDigitAdder(unittest.TestCase):
+class Test40DigitAdder(unittest.TestCase):
     def test_1(self):
         self.assertEqual(Ex__2_40_digit_adder.add_40_digits(
         "0", "0"), "0")

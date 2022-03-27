@@ -6,13 +6,16 @@ from tensorflow.keras import datasets, layers, models, optimizers, losses
 import matplotlib.pyplot as plt
 
 def load_dataset():
-    (train_images, train_labels), (test_images, test_labels) = datasets.cifar10.load_data()
+    (train_images, train_labels), \
+        (test_images, test_labels) = \
+        datasets.cifar10.load_data()
 
     # Normalize pixel values to the range 0-1
     train_images = train_images / 255.0
     test_images = test_images / 255.0
 
-    return train_images, train_labels, test_images, test_labels
+    return train_images, train_labels, \
+           test_images, test_labels
     
 def create_model():
     # Each image is 32x32 pixels with 3 RGB color planes
@@ -35,15 +38,18 @@ def create_model():
 
     model = models.Sequential([
         # First convolutional layer followed by max pooling
-        layers.Conv2D(filters_layer1, conv_filter_size, activation='relu', input_shape=image_shape),
+        layers.Conv2D(filters_layer1, conv_filter_size,
+            activation='relu', input_shape=image_shape),
         layers.MaxPooling2D(pooling_size),
 
         # Second convolutional layer followed by max pooling
-        layers.Conv2D(filters_layer2, conv_filter_size, activation='relu'),
+        layers.Conv2D(filters_layer2, conv_filter_size,
+            activation='relu'),
         layers.MaxPooling2D(pooling_size),
 
         # Third convolutional layer followed by flattening
-        layers.Conv2D(filters_layer3, conv_filter_size, activation='relu'),
+        layers.Conv2D(filters_layer3, conv_filter_size,
+            activation='relu'),
         layers.Flatten(),
 
         # Dense layer followed by the output layer
@@ -52,23 +58,26 @@ def create_model():
     ])
 
     model.compile(optimizer=optimizers.Adam(),
-                  loss=losses.SparseCategoricalCrossentropy(from_logits=True),
-                  metrics=['accuracy'])
+        loss=losses.SparseCategoricalCrossentropy(
+            from_logits=True), metrics=['accuracy'])
 
     return model
 
-def train_model(train_images, train_labels, test_images, test_labels, model):
-    history = model.fit(train_images, train_labels, epochs=10, 
-                        validation_data=(test_images, test_labels))
+def train_model(train_images, train_labels, \
+                test_images, test_labels, model):
+    history = model.fit(train_images, train_labels,
+        epochs=10, validation_data=(test_images, test_labels))
 
-    test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
+    test_loss, test_acc = model.evaluate(test_images,
+        test_labels, verbose=2)
 
     return history, test_acc
 
 def plot_model_accuracy(history):
     plt.figure()
     plt.plot(history.history['accuracy'], label='Accuracy')
-    plt.plot(history.history['val_accuracy'], label = 'Validation Accuracy')
+    plt.plot(history.history['val_accuracy'],
+        label = 'Validation Accuracy')
     plt.xlabel('Epoch')
     plt.ylabel('Accuracy')
     plt.ylim([0.5, 1])
@@ -77,11 +86,14 @@ def plot_model_accuracy(history):
     plt.show()
 
 if __name__ == '__main__':
-    train_images, train_labels, test_images, test_labels = load_dataset()
+    train_images, train_labels, test_images, \
+        test_labels = load_dataset()
     model = create_model()
-    history, test_acc = train_model(train_images, train_labels, test_images, test_labels, model)
+    history, test_acc = train_model(train_images, \
+        train_labels, test_images, test_labels, model)
     print()
     print('='*31)
-    print('| Validation accuracy: {:.2f}% |'.format(100*test_acc))
+    print('| Validation accuracy: {:.2f}% |'.
+          format(100*test_acc))
     print('='*31)
     plot_model_accuracy(history)

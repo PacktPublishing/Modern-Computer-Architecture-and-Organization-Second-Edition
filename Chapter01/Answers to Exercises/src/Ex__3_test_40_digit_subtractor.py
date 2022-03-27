@@ -6,7 +6,7 @@ chapter 1 exercise 3."""
 import unittest
 import Ex__3_40_digit_subtractor
 
-class TestSingleDigitSubtractor(unittest.TestCase):
+class Test40DigitSubtractor(unittest.TestCase):
     def test_1(self):
         self.assertEqual(Ex__3_40_digit_subtractor.
         subtract_40_digits("0", "0"), "0")

@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 1, Exercise 3
 
-Modify the program of Exercise 2 to implement subtraction of 40-digit decimal values. Perform borrowing as required. Test with 0-0, 1-0, 1000000-1, and 0-1. What is the result for 0-1?
+Modify the programs of Exercise 1 and Exercise 2 to implement subtraction of 40-digit decimal values. Perform borrowing as required. Test with 0-0, 1-0, 1000000-1, and 0-1. What is the result for 0-1?
 
 # Answer
 See the python file [Ex__3_single_digit_subtractor.py](src/Ex__3_single_digit_subtractor.py) for the single-digit subtractor code.

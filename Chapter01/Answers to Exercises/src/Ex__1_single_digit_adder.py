@@ -14,7 +14,7 @@ def increment_adder(a, b, c):
     if b == 0:       # If accumulator is 0, increment carry
         c = c + 1
         
-    return a, b, c;
+    return a, b, c
 
 # Add two decimal digits passed on the command line.
 # The sum is returned as digit2 and the carry is 0 or 1.
@@ -26,4 +26,3 @@ def add_digits(digit1, digit2):
         digit1, digit2, carry)
 
     return digit2, carry
-    

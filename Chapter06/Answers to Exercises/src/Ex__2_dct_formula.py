@@ -16,14 +16,14 @@ x = [0.5, 0.2, 0.7, -0.6, 0.4, -0.2, 1.0, -0.3]
 dct_coef = [[i for i in range(len(x))] for j in range(len(x))]
 for n in range(len(x)):
     for k in range(len(x)):
-        dct_coef[n][k] = math.cos((math.pi/len(x))*(n + 1/2)*k);
+        dct_coef[n][k] = math.cos((math.pi/len(x))*(n + 1/2)*k)
 
 # Compute the DCT
 x_dct = [i for i in range(len(x))]
 for k in range(len(x)):
     x_dct[k] = 0;
     for n in range(len(x)):
-        x_dct[k] += x[n]*dct_coef[n][k];
+        x_dct[k] += x[n]*dct_coef[n][k]
 
 # Print the results
 print('Index', end='')

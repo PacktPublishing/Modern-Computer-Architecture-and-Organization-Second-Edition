@@ -2,16 +2,20 @@
 
 """Ex__3_create_network.py: Answer to Ch 16 Ex 3."""
 
-from tensorflow.keras import datasets, layers, models, optimizers, losses
+from tensorflow.keras import datasets, layers, models, \
+    optimizers, losses
 
 def load_dataset():
-    (train_images, train_labels), (test_images, test_labels) = datasets.cifar10.load_data()
+    (train_images, train_labels), \
+        (test_images, test_labels) = \
+        datasets.cifar10.load_data()
 
     # Normalize pixel values to the range 0-1
     train_images = train_images / 255.0
     test_images = test_images / 255.0
 
-    return train_images, train_labels, test_images, test_labels
+    return train_images, train_labels, \
+        test_images, test_labels
     
 def create_model():
     # Each image is 32x32 pixels with 3 RGB color planes
@@ -34,15 +38,18 @@ def create_model():
 
     model = models.Sequential([
         # First convolutional layer followed by max pooling
-        layers.Conv2D(filters_layer1, conv_filter_size, activation='relu', input_shape=image_shape),
+        layers.Conv2D(filters_layer1, conv_filter_size,
+            activation='relu', input_shape=image_shape),
         layers.MaxPooling2D(pooling_size),
 
         # Second convolutional layer followed by max pooling
-        layers.Conv2D(filters_layer2, conv_filter_size, activation='relu'),
+        layers.Conv2D(filters_layer2, conv_filter_size,
+            activation='relu'),
         layers.MaxPooling2D(pooling_size),
 
         # Third convolutional layer followed by flattening
-        layers.Conv2D(filters_layer3, conv_filter_size, activation='relu'),
+        layers.Conv2D(filters_layer3, conv_filter_size,
+            activation='relu'),
         layers.Flatten(),
 
         # Dense layer followed by the output layer
@@ -51,12 +58,13 @@ def create_model():
     ])
 
     model.compile(optimizer=optimizers.Adam(),
-                  loss=losses.SparseCategoricalCrossentropy(from_logits=True),
-                  metrics=['accuracy'])
+        loss=losses.SparseCategoricalCrossentropy(
+            from_logits=True), metrics=['accuracy'])
 
     return model
 
 if __name__ == '__main__':
-    train_images, train_labels, test_images, test_labels = load_dataset()
+    train_images, train_labels, test_images, \
+        test_labels = load_dataset()
     model = create_model()
     model.summary()

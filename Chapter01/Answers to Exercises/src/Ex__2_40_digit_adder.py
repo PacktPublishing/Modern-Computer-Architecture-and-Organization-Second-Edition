@@ -26,7 +26,7 @@ def add_40_digits(str1, str2):
     sum = [0]*max_digits
     carry = [0]*max_digits
     for i in range(max_digits):
-        (sum[i], carry[i]) = Ex__1_single_digit_adder.\
+        (sum[i], carry[i]) = Ex__1_single_digit_adder. \
         add_digits(num1[i], num2[i])
     
     # Ripple the carry values across the digits

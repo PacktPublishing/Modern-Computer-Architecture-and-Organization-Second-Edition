@@ -12,4 +12,4 @@ Update the operating system and other applications and services (such as Java) o
 
 1. If an application has an option to automatically check for updates, ensure it is turned on. You may want to be notified when updates are available but not have them installed automatically.
 
-1. Set up a repeating reminder in your calendar application to notify you to check for updates for all devices and applications at the shortest interval you believe is reasonable, whether it is weekly, biweekly, or monthly. Don't wait too long between updates because your systems are vulnerable during the period between the identification of the vulnerability and your installation of the update that fixes it.
+1. Set up a repeating reminder in your calendar application to notify you to check for updates for all devices and applications at the shortest interval you believe is reasonable, whether it is weekly, biweekly, or monthly. Don't wait too long between updates because your systems are vulnerable during the period between the identification of a vulnerability and your installation of the update that fixes it.
