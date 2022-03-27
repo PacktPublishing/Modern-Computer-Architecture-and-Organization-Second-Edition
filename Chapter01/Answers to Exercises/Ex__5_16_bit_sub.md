@@ -7,3 +7,5 @@ Write 6502 assembly code to subtract two 16-bit values in a manner similar to Ex
 See the 6502 assembly file [Ex__5_16_bit_subtraction.asm](src/Ex__5_16_bit_subtraction.asm) for the 16-bit subtraction code.
 
 Try running this code at https://skilldrick.github.io/easy6502/
+
+The result for $0000-$0001 is $FFFF.

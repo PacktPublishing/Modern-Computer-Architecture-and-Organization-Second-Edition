@@ -4,7 +4,7 @@ __Modern Computer Architecture and Organization Second Edition__, by Jim Ledin. 
 Write a 32-bit ARM assembly language program that computes the following expression and prints the result as a hexadecimal number: {(129 – 66) &times; (445 + 136)} &div; 3. As part of this program, create a callable function to print one byte as two hex digits.
 
 # Answer
-Create your assembly language source file. See [Ex__6_expr_arm.s](src/Ex__6_expr_arm.s) for an example solution to this exercise.
+Create your assembly language source file. The file [Ex__6_expr_arm.s](src/Ex__6_expr_arm.s) contains an example solution to this exercise.
  
 Build the executable with these commands:
 ```

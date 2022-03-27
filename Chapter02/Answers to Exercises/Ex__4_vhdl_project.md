@@ -6,7 +6,7 @@ Using your VHDL tool set, implement the 4-bit adder using the code listings pres
 # Answer
 Follow these steps to implement the 4-bit adder:
 
-1. Double-click the **Vivado 2019.2** (or similar) icon to start Vivado.
+1. Double-click the **Vivado 2021.2** (or similar) icon to start Vivado.
 2. Click **Create Project** in the Vivado main dialog.
 3. Click **Next** to accept the default project name and location.
 4. Select **RTL Project**, the default project type.

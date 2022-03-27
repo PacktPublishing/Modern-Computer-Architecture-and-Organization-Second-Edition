@@ -32,3 +32,4 @@ Ran 4 tests in 0.001s
 
 OK
 ```
+The result for 0-1 is 9 with a carry of 0.

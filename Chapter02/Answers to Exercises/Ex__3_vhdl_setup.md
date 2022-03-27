@@ -9,6 +9,7 @@ Some freely available VHDL development suites are as follows:
 * Intel® Quartus® Prime Software Lite Edition is available at  https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/download.html
 * The open source GHDL simulator for VHDL is available at https://github.com/ghdl/ghdl
 * Mentor ModelSim PE Student Edition is available at https://www.mentor.com/company/higher_ed/modelsim-student-edition
+* Electronic Design Automation (EDA) Playground is available at https://www.edaplayground.com/
 
 **Vivado Design Suite** will be used for the examples in this chapter and in following chapters, including installing circuit designs in a low cost FPGA development board. These steps describe the installation and setup process for Windows 10:
 
@@ -23,7 +24,7 @@ Some freely available VHDL development suites are as follows:
 
 After the installation completes, follow these steps to build an example project:
 
-1. You should find an icon on your desktop with a name similar to **Vivado 2019.2**. Double-click this icon (and not the icon that says **Vivado HLS**) to start the application.
+1. You should find an icon on your desktop with a name similar to **Vivado 2021.2**. Double-click this icon (and not the icon that says **Vivado HLS**) to start the application.
 2. In the Vivado main window, click **Open Example Project**.
 3. Click through to the **Select Project Template** screen and select **CPU (HDL)**.
 4. Click through and accept the defaults on the next screens and click **Finish** to create the project.
